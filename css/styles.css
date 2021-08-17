@@ -71,7 +71,7 @@ footer {
     object-fit: cover;
     filter: grayscale(1) contrast(1.1);
     -webkit-filter: grayscale(1) contrast(1.1);
-    padding: 5%;
+    padding-right: 5%;
 }
 
 .thumbnail:hover {
@@ -98,7 +98,6 @@ footer {
     text-align: left;
     display: table-cell;
     vertical-align: top;
-    padding-right: 2%;
 }
     
 #scroll span {
