@@ -1,8 +1,6 @@
-$(document).ready(function() {
+const menuHamburguesa = document.querySelector( '#menu' );
 
-    $('.menu').click(function(){
-        $('.boton-menu .desplegable').
-        slideToggle();
-    });
-    
+menuHamburguesa.addEventListener( 'click', function() {
+document.body.classList.slidetoggle( 'mobile-menu-active' );
 });
+
